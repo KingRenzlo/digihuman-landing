@@ -1,164 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Digi.Human vs The Others</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <div class="nav">
+      <div class="logo">Digi.Human</div>
+      <div class="links">
+        <a href="#">Overview</a>
+        <a href="#">3D TNT Marketplace</a>
+      </div>
+    </div>
+    <div class="hero">
+      <h1>💥 Digi.Human vs The Others — Game Dev Character Showdown</h1>
+      <p>The clean, modular, optimized alternative to bloated pipelines and studio-locked assets.</p>
+    </div>
+  </header>
 
-<h1>💥 Digi.Human vs The Others — Game Dev Character Showdown</h1>
+  <main>
+    <section class="content">
+      <h2>🧾 Feature Comparison</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature / System</th>
+            <th>Digi.Human 💪</th>
+            <th>MetaHuman 😵‍💫</th>
+            <th>Daz Characters 😩</th>
+            <th>CC4/AccuRig 🫠</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Game-Optimized Topology</td><td>✅ Hand-crafted, morph-ready</td><td>❌ Hollywood rig bloat</td><td>❌ Irregular, dense</td><td>⚠️ Mixed quality</td></tr>
+          <tr><td>One Skeleton for All</td><td>✅ Standard UE rig w/ expandability</td><td>❌ Control rig mess</td><td>❌ Requires retargeting</td><td>⚠️ AccuRig varies</td></tr>
+          <tr><td>Morph-Only Customization</td><td>✅ Fast, modular, 1-click</td><td>❌ LiveLink only</td><td>⚠️ Limited, slow</td><td>❌ Rig resets morphs</td></tr>
+          <tr><td>Texel-Consistent UDIM Layout</td><td>✅ Tattoo/makeup ready</td><td>❌ Fragmented</td><td>❌ Legacy 1-tile</td><td>⚠️ Varies</td></tr>
+          <tr><td>Real-Time Performance</td><td>✅ Lightweight, efficient</td><td>❌ FPS killer</td><td>⚠️ Mid–Heavy</td><td>⚠️ Mid</td></tr>
+          <tr><td>NSFW/Anatomical Options</td><td>✅ Optional, cleanly integrated</td><td>❌ Nope</td><td>✅ But janky</td><td>❌ Not supported</td></tr>
+          <tr><td>Material System</td><td>✅ Shader-mapped, stylized or PBR</td><td>❌ Complex + slow</td><td>❌ Irregular</td><td>⚠️ Basic</td></tr>
+          <tr><td>ARKit / FACS Ready</td><td>✅ Game-ready blendshapes</td><td>✅ Yes (heavy rig)</td><td>⚠️ Manual</td><td>⚠️ Limited</td></tr>
+          <tr><td>Wrap/Projection Compatibility</td><td>✅ Proxy-ready, clean mesh</td><td>❌ Not viable</td><td>⚠️ Only w/ cleanup</td><td>❌</td></tr>
+          <tr><td>Designed for Modularity & Reskinning</td><td>✅ Plug-n-play face swaps, stylization</td><td>❌ Locked in</td><td>⚠️ Depends</td><td>❌</td></tr>
+          <tr><td>License Freedom</td><td>✅ Sell your custom characters</td><td>❌ Closed</td><td>⚠️ Confusing</td><td>⚠️ Closed</td></tr>
+          <tr><td>Works in Games Out of Box</td><td>✅ Drag & drop UE ready</td><td>❌ Needs heavy edits</td><td>❌ Needs rig fixes</td><td>⚠️ Setup required</td></tr>
+        </tbody>
+      </table>
 
-<table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Feature / System</th>
-      <th>Digi.Human 💪</th>
-      <th>MetaHuman 😵‍💫</th>
-      <th>Daz Characters 😩</th>
-      <th>CC4/AccuRig 🫠</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Game-Optimized Topology</td>
-      <td>✅ Hand-crafted, morph-ready</td>
-      <td>❌ Hollywood rig bloat</td>
-      <td>❌ Irregular, dense</td>
-      <td>⚠️ Mixed quality</td>
-    </tr>
-    <tr>
-      <td>One Skeleton for All</td>
-      <td>✅ Standard UE rig w/ expandability</td>
-      <td>❌ Control rig mess</td>
-      <td>❌ Requires retargeting</td>
-      <td>⚠️ AccuRig varies</td>
-    </tr>
-    <tr>
-      <td>Morph-Only Customization</td>
-      <td>✅ Fast, modular, 1-click</td>
-      <td>❌ LiveLink only</td>
-      <td>⚠️ Limited, slow</td>
-      <td>❌ Rig resets morphs</td>
-    </tr>
-    <tr>
-      <td>Texel-Consistent UDIM Layout</td>
-      <td>✅ Tattoo/makeup ready</td>
-      <td>❌ Fragmented</td>
-      <td>❌ Legacy 1-tile</td>
-      <td>⚠️ Varies</td>
-    </tr>
-    <tr>
-      <td>Real-Time Performance</td>
-      <td>✅ Lightweight, efficient</td>
-      <td>❌ FPS killer</td>
-      <td>⚠️ Mid–Heavy</td>
-      <td>⚠️ Mid</td>
-    </tr>
-    <tr>
-      <td>NSFW/Anatomical Options</td>
-      <td>✅ Optional, cleanly integrated</td>
-      <td>❌ Nope</td>
-      <td>✅ But janky</td>
-      <td>❌ Not supported</td>
-    </tr>
-    <tr>
-      <td>Material System</td>
-      <td>✅ Shader-mapped, stylized or PBR</td>
-      <td>❌ Complex + slow</td>
-      <td>❌ Irregular</td>
-      <td>⚠️ Basic</td>
-    </tr>
-    <tr>
-      <td>ARKit / FACS Ready</td>
-      <td>✅ Game-ready blendshapes</td>
-      <td>✅ Yes (heavy rig)</td>
-      <td>⚠️ Manual</td>
-      <td>⚠️ Limited</td>
-    </tr>
-    <tr>
-      <td>Wrap/Projection Compatibility</td>
-      <td>✅ Proxy-ready, clean mesh</td>
-      <td>❌ Not viable</td>
-      <td>⚠️ Only w/ cleanup</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>Designed For Modularity & Reskinning</td>
-      <td>✅ Plug-n-play face swaps, stylization</td>
-      <td>❌ Locked in</td>
-      <td>⚠️ Depends</td>
-      <td>❌</td>
-    </tr>
-    <tr>
-      <td>License Freedom</td>
-      <td>✅ Sell your custom characters</td>
-      <td>❌ Closed</td>
-      <td>⚠️ Confusing</td>
-      <td>⚠️ Closed</td>
-    </tr>
-    <tr>
-      <td>Works in Games Out of Box</td>
-      <td>✅ Drag & drop UE ready</td>
-      <td>❌ Needs heavy edits</td>
-      <td>❌ Needs rig fixes</td>
-      <td>⚠️ Setup required</td>
-    </tr>
-  </tbody>
-</table>
+      <h2>💡 The Digi.Human Advantage</h2>
+      <p>Unlike bloated pipelines with dozens of textures, broken UVs, and locked-in body parts, Digi.Human uses a single shared UV layout for all characters — across gender, style, and even species.</p>
+      <ul>
+        <li>✅ One Swap = Full Face, Genitals, Nails, Makeup, Scars</li>
+        <li>✅ Zero need to rebake, rewrap, or rebuild anything</li>
+        <li>✅ Every texture is a modular skin layer (not just color)</li>
+        <li>✅ Tattoo-ready UV zones keep consistency across swappable designs</li>
+        <li>✅ Perfect for runtime character customization or modding</li>
+      </ul>
+      <blockquote>→ You don’t replace the character. You reskin its soul.</blockquote>
 
-<h2>💡 The Digi.Human Advantage</h2>
-<p>Unlike bloated pipelines with dozens of textures, broken UVs, and locked-in body parts, Digi.Human uses a single shared UV layout for all characters — across gender, style, and even species.</p>
-<ul>
-  <li>One Swap = Full Face, Genitals, Nails, Makeup, Scars</li>
-  <li>Zero need to rebake, rewrap, or rebuild anything</li>
-  <li>Every texture is a modular skin layer (not just color)</li>
-  <li>Tattoo-ready UV zones keep consistency across swappable designs</li>
-  <li>Perfect for runtime character customization or modding</li>
-</ul>
+      <h2>💡 Core Technical Superiority</h2>
+      <ul>
+        <li><strong>🧠 Single Material Instance</strong><br>Dynamic layers, switchable textures — no shader rebuilds. LOD-optimized. One master to rule them all.</li>
+        <li><strong>🦴 One Skeleton to Rule Them All</strong><br>Universal rig. Works with IK, control rigs, motion matching, and every character type.</li>
+        <li><strong>🎮 Blueprint Framework Ready</strong><br>Full morphs, ARKit, JCMs, physics, sockets — all unified and modular.</li>
+      </ul>
 
-<h2>💡 Core Technical Superiority: One Material, One Skeleton, Universal Compatibility</h2>
-<ul>
-  <li><strong>🧠 Single Material Instance:</strong> Dynamic layers, supports makeup, tattoos, dirt, scars — no shader rebuilds. Streamlined for LODs.</li>
-  <li><strong>🦴 Single Skeleton:</strong> All characters — same skeleton. Works with IK, control rigs, motion matching.</li>
-  <li><strong>🎮 Blueprint Ready:</strong> ARKit, JCMs, physics, clothing sockets, morph targets — all in one place.</li>
-</ul>
+      <h2>🧨 Supercharge Uniqueness with 3D TNT</h2>
+      <p>Digi.Human is the engine. 3D TNT is the ammo.</p>
+      <ul>
+        <li>🖊️ Tattoo zones built into UVs — no seams, no decals</li>
+        <li>🧬 Identity swap with a single texture</li>
+        <li>📦 Overlay packs: tattoos, scars, freckles, ritual paint</li>
+        <li>🛠️ Load your own overlays or brand markings</li>
+        <li>🎯 Same mesh, same material, same skeleton — always</li>
+      </ul>
 
-<h2>🧨 Supercharge Uniqueness with 3D TNT</h2>
-<ul>
-  <li>Overlay-ready UVs: tattoos, scars, paint, branding, blood</li>
-  <li>Hot-swap identity: skin, markings, species — just one texture</li>
-  <li>Massive packs: tribal ink, military, ritual, scars, wounds</li>
-  <li>Creator-ready: add your own overlays or brand markings</li>
-</ul>
+      <h2>🛒 3D TNT Marketplace</h2>
+      <ul>
+        <li>✅ Sell clothing, props, weapons, accessories, expansions</li>
+        <li>✅ 100% revenue on assets, 88% on overlays (12% supports platform)</li>
+        <li>✅ Must meet game-ready standards, UV/skeleton compatibility</li>
+      </ul>
+      <blockquote>“Because creators deserve control, credit, and cash — not crumbs.”</blockquote>
 
-<h2>🛒 3D TNT Marketplace</h2>
-<ul>
-  <li>✅ Sell clothing, props, weapons, accessories</li>
-  <li>✅ 100% revenue for assets, 88% on overlays</li>
-  <li>✅ Game-ready quality required (UVs, skeleton, materials)</li>
-</ul>
-<blockquote>Because creators deserve control, credit, and cash — not crumbs.</blockquote>
+      <h2>🔥 3D TNT + Digi.Human Unreal Engine Integration</h2>
+      <ul>
+        <li>🎮 Drag-and-drop UE integration</li>
+        <li>🧬 Shared UVs + skeleton across all characters</li>
+        <li>🎭 In-editor character creator (Mutable-style morph UI)</li>
+        <li>🤸 ARKit, JCMs, flexors, jiggle bones</li>
+        <li>🧥 Dynamic layered states: blood, ash, dirt, burns</li>
+        <li>💃 Pose + animation zones for cinematic control</li>
+        <li>🧰 Built as a full character platform</li>
+      </ul>
 
-<h2>🔥 3D TNT + Digi.Human Unreal Engine Integration</h2>
-<ul>
-  <li>🎮 Drag-and-drop into Unreal</li>
-  <li>🧬 Shared UVs + skeleton across all characters</li>
-  <li>🎭 In-editor character creator (Mutable-style UI)</li>
-  <li>🤸 JCMs, ARKit, flexors, jiggle bones</li>
-  <li>🧥 Material states: blood, ash, dirt, burns</li>
-</ul>
+      <h2>💡 The Solution Principle</h2>
+      <p>Digi.Human isn’t just a solution. It’s <strong>The Solution.™</strong></p>
+      <ul>
+        <li>💾 Optimized, modular, real-time ready</li>
+        <li>🧠 Smart skeleton + morph structure</li>
+        <li>🛠️ Drop-in Unreal compatibility</li>
+        <li>🔄 Dynamic LOD + material state control</li>
+        <li>🎨 Stylable, reskinnable, game-resilient</li>
+      </ul>
+    </section>
+  </main>
 
-<h2>💡 The Solution Principle</h2>
-<ul>
-  <li>💾 Optimized, modular, real-time ready</li>
-  <li>🧠 Smart skeleton + morph structure</li>
-  <li>🛠️ Drag-and-drop Unreal compatibility</li>
-  <li>🔄 Dynamic LOD + layered material control</li>
-  <li>🎨 Stylable, reskinnable, game-resilient</li>
-</ul>
-
-<p><strong>This is The Solution.™</strong><br/>
-© 2025 Digi.Human • Made for creators, by creators.</p>
-
+  <footer>
+    © 2025 Digi.Human • Made for creators, by creators.
+  </footer>
 </body>
 </html>
