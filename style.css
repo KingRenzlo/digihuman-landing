@@ -19,11 +19,28 @@ header {
   padding: 2rem;
 }
 
+.intro {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.intro p {
+  margin-bottom: 1.2rem;
+}
+
 .bold-tagline {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
+  color: #fff;
   margin: 2rem 0;
 }
+
 
 .nav {
   display: flex;
