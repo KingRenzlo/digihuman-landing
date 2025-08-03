@@ -136,7 +136,7 @@ tr:hover {
   height: auto;
   object-fit: cover;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .hero {
     padding: 2rem 1rem;
   }
