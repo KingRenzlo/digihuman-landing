@@ -143,6 +143,6 @@ tr:hover {
 }
 @media (max-width: 768px) {
   .intro {
-    padding: 2rem 1rem;
+    padding: 2rem .5rem;
   }
 }
