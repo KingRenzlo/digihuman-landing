@@ -141,10 +141,9 @@ tr:hover {
     padding: 2rem 1rem;
   }
 }
-@media (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .intro {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 4rem .5rem;
+    max-width: 95vw;
+    padding: 1rem 1rem;
   }
 }
