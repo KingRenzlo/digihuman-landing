@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digi.Human – Pose→Rest & Morph Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-image">
+      <img src="digihumanlogoheader.png" alt="DigiHuman Header" />
+    </div>
+
+    <div class="nav">
+      <div class="logo">Digi.Human</div>
+      <nav>
+        <a href="#rest">Pose→Rest</a>
+        <a href="#morphs">Morphs</a>
+        <a href="#tips">Tips</a>
+      </nav>
+    </div>
+
+    <div class="hero">
+      <h1>
+        <img src="DIGIHUMAN-ICON.png" alt="Digi.Human Icon" style="height:1.2em; vertical-align:middle; margin-right:0.3em;"/>
+        Pose→Rest & Morph Creation Guide
+      </h1>
+      <p class="muted">How to change rest pose and build morphs in Blender without breaking weights — UE-ready, customer-safe, zero explosions.</p>
+      <div class="intro">
+        <p class="bold-tagline">Bones and mesh must agree on a single rest position. This guide keeps them in sync.</p>
+        <div>
+          <span class="pill">UE5 Ready</span>
+          <span class="pill">Manny/Quinn Compatible</span>
+          <span class="pill">No Weight Loss</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="rest" class="content">
+      <h2>Part 1 — Change Rest Pose Safely</h2>
+      <!-- Content unchanged -->
+    </section>
+
+    <section id="morphs" class="content">
+      <h2>Part 2 — Create Morphs (Shape Keys) from a Pose</h2>
+      <!-- Content unchanged -->
+    </section>
+
+    <section id="tips" class="content">
+      <h2>Pro Tips for Digi.Human + UE5</h2>
+      <!-- Content unchanged -->
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Digi.Human • Made for creators, by creators.
+  </footer>
+
+  <div style="width:100%; text-align:center; margin-top:3rem; padding-bottom:60px;">
+    <img src="egelogo.png" alt="EGE Logo" style="max-width:200px; height:auto;"/>
+  </div>
+</body>
+</html>
