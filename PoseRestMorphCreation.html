@@ -40,27 +40,62 @@
 
   <main>
     <section id="rest" class="content">
-      <h2>Part 1 — Change Rest Pose Safely</h2>
-      <!-- Content unchanged -->
+      <h2>Part 1 — Changing Rest Pose Safely</h2>
+      <p><strong>Why this is important</strong></p>
+      <p>When you change a character’s pose or proportions, the skeleton (armature) and the mesh must “agree” on their rest position. If you update one without the other, you get broken weights, stretched limbs, or “exploded” meshes.</p>
+      <p>This method keeps bones and mesh in sync without losing any weight painting or vertex groups.</p>
+
+      <ol>
+        <li><strong>Pose the Armature</strong><br>
+          Select your Armature → Pose Mode.<br>
+          Move bones into the desired proportions or pose you want as the new “rest” position.
+        </li>
+        <li><strong>Freeze the Mesh to Match</strong><br>
+          In Object Mode:<br>
+          Select the mesh, then <em>Shift+select</em> the Armature.<br>
+          Press <code>Ctrl+A</code> → <em>Visual Geometry to Mesh</em>.<br>
+          This bakes the mesh to match the posed bones exactly.
+        </li>
+        <li><strong>Apply as Rest Pose</strong><br>
+          Select the Armature → Pose Mode.<br>
+          Go to <em>Pose → Apply → Apply Pose as Rest Pose</em>.<br>
+          Now your mesh and armature agree on the new rest position.
+        </li>
+      </ol>
+
+      <p>✅ No weight loss<br>
+      ✅ No bind mismatch<br>
+      ✅ Fully UE-ready</p>
     </section>
 
     <section id="morphs" class="content">
-      <h2>Part 2 — Create Morphs (Shape Keys) from a Pose</h2>
-      <!-- Content unchanged -->
+      <h2>Part 2 — Creating a Shape Key from a Posed Character</h2>
+
+      <ol>
+        <li><strong>Pose or Adjust the Rig</strong><br>
+          Pose the Armature into your desired shape (e.g., stylized proportions, body morph, donor skeleton fit).
+        </li>
+        <li><strong>Bake the Posed Mesh</strong><br>
+          Select mesh → <em>Shift+select</em> Armature.<br>
+          <code>Ctrl+A</code> → <em>Visual Geometry to Mesh</em>.
+        </li>
+        <li><strong>Store as Shape Key</strong><br>
+          Select the mesh → <em>Object Data Properties</em> (triangle icon).<br>
+          Under Shape Keys, click <strong>+</strong> to add a new key (this is the “Basis”).<br>
+          Click the small ▼ menu → <em>Join as Shapes</em> and choose the posed version.<br>
+          You now have a morph slider for that shape.
+        </li>
+      </ol>
+
+      <p>✅ Perfect for creating morph packs<br>
+      ✅ Works with any pose or donor skeleton<br>
+      ✅ Preserves original mesh</p>
     </section>
 
     <section id="tips" class="content">
-      <h2>Pro Tips for Digi.Human + UE5</h2>
-      <!-- Content unchanged -->
-    </section>
-  </main>
-
-  <footer>
-    © 2025 Digi.Human • Made for creators, by creators.
-  </footer>
-
-  <div style="width:100%; text-align:center; margin-top:3rem; padding-bottom:60px;">
-    <img src="egelogo.png" alt="EGE Logo" style="max-width:200px; height:auto;"/>
-  </div>
-</body>
-</html>
+      <h2>Tips for Digi.Human Users</h2>
+      <ul>
+        <li>Always keep an untouched backup of your base mesh and rig.</li>
+        <li>Use Edit Mode for proportion changes if you want bones to move without deforming the mesh.</li>
+        <li>Use Visual Geometry to Mesh for any pose-based changes to keep weights perfect.</li>
+        <li>For U
