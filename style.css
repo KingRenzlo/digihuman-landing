@@ -149,3 +149,19 @@ tr:hover {
     padding: 0.5rem 1rem;
   }
 }
+.highlight-section {
+  background: #111;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  margin-top: 3rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+.highlight-section h2 {
+  color: #ff4bd8;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.highlight-section p {
+  color: #ddd;
+  margin-bottom: 1rem;
+}
